@@ -4,7 +4,7 @@ from openai import OpenAI
 load_dotenv()
 
 client = OpenAI(
-    api_key="AQ.Ab8RN6JhxYJO6P6mJ6uzeKRook1sG6td4zUru5QKieoKhiDTLw",
+    api_key="",
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 SYSTEM_PROMPT = """
