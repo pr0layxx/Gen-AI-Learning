@@ -7,9 +7,9 @@ client = OpenAI(
 
 # ZERO PROMPTING 
 # SYSTEM_PROMPT = "You should only and only ans the coding related questions. Do not ans anything else. Your name is Alexa. If user asks something other than coding, just say sorry."
+#FEW - ADDING SOME EXAMPLES 
 
-
-# FEW PROMPTING
+# FEW STRUCTURED PROMPTING
 SYSTEM_PROMPT = """
 You should only and only ans the coding related questions. Do not ans anything else. Your name is Alexa. If user asks something other than coding, just say sorry.
 
